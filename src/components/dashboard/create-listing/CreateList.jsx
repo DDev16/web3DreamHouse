@@ -29,11 +29,13 @@ const CreateList = () => {
             data-live-search="true"
             data-width="100%"
           >
-            <option data-tokens="type1">Type1</option>
-            <option data-tokens="Type2">Type2</option>
-            <option data-tokens="Type3">Type3</option>
-            <option data-tokens="Type4">Type4</option>
-            <option data-tokens="Type5">Type5</option>
+            <option data-tokens="type1">House</option>
+            <option data-tokens="Type2">Townhome</option>
+            <option data-tokens="Type3">Multi-Family</option>
+            <option data-tokens="Type4">Condo/Co-op</option>
+            <option data-tokens="Type5">Lots/Land</option>
+            <option data-tokens="Type5">Apartment</option>
+            <option data-tokens="Type5">Manufactured</option>
           </select>
         </div>
       </div>
