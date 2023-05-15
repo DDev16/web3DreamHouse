@@ -2,40 +2,47 @@ import Link from "next/link";
 import React, { useState } from 'react';
 import Web3 from "web3";
 import contractABI from "../common/user-credentials/registration.json"
+import { useRouter } from 'next/router';
 
     
 
 const Form = () => {
 
   const [log, setLog] = useState("");
+  const router = useRouter();
 
    
     
     
 
-    const handleRegisterWithMetamask = async () => {
-        setLog("Attempting to connect with MetaMask...");
-        if (typeof window.ethereum !== 'undefined') {
-            setLog("MetaMask is installed!");
-            const web3 = new Web3(window.ethereum);
-            try {
-                const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
-                setLog(`Connected with the account ${accounts[0]}`);
+  const handleRegisterWithMetamask = async () => {
+    setLog("Attempting to connect with MetaMask...");
+    if (typeof window.ethereum !== 'undefined') {
+        setLog("MetaMask is installed!");
+        const web3 = new Web3(window.ethereum);
+        try {
+            const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+            setLog(`Connected with the account ${accounts[0]}`);
 
-                const contractAddress = "0x04C89607413713Ec9775E14b954286519d836FEf"; 
+            const contractAddress = "0xDC11f7E700A4c898AE5CAddB1082cFfa76512aDD"; 
 
-                const contract = new web3.eth.Contract(contractABI, contractAddress);
+            const contract = new web3.eth.Contract(contractABI, contractAddress);
 
-                await contract.methods.register().send({ from: accounts[0] });
+            await contract.methods.register().send({ from: accounts[0] });
 
-                setLog('User registered successfully');
-            } catch (error) {
-                setLog("User account already registered");
-            }
-        } else {
-            setLog('Non-Ethereum browser detected. You should consider trying MetaMask!');
+            setLog('User registered successfully');
+
+            // Redirect to my-dashboard
+            router.push('/my-dashboard');
+
+        } catch (error) {
+            setLog("User account already registered");
         }
+    } else {
+        setLog('Non-Ethereum browser detected. You should consider trying MetaMask!');
     }
+}
+
   
   return (
     <form action="#">
