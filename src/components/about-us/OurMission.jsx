@@ -5,19 +5,19 @@ const OurMission = () => {
     {
       id: 1,
       icon: "flaticon-user",
-      number: "80,123",
+      number: "$0",
       meta: "Customers to date",
     },
     {
       id: 2,
       icon: "flaticon-home",
-      number: "$74 Billion",
+      number: "$0",
       meta: "In home sales",
     },
     {
       id: 3,
       icon: "flaticon-transfer",
-      number: "$468 Million",
+      number: "$0",
       meta: "In Savings",
     },
   ];
@@ -26,25 +26,15 @@ const OurMission = () => {
     <>
       <div className="col-lg-8 col-xl-7">
         <div className="about_content">
-          <p className="large">
-            Mauris ac consectetur ante, dapibus gravida tellus. Nullam aliquet
-            eleifend dapibus. Cras sagittis, ex euismod lacinia tempor.
+          <h2>Our Mission: Changing Real Estate with Blockchain Technology</h2>
+          <p>
+            At Web3Realty, our mission is to revolutionize the real estate industry by leveraging the power of blockchain technology. We believe that blockchain can transform how real estate is conducted, making it more transparent, secure, and efficient for all parties involved.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            quis ligula eu lectus vulputate porttitor sed feugiat nunc. Mauris
-            ac consectetur ante, dapibus gravida tellus. Nullam aliquet eleifend
-            dapibus. Cras sagittis, ex euismod lacinia tempor, lectus orci
-            elementum augue, eget auctor metus ante sit amet velit.
+            With our platform, we aim to address the traditional challenges of real estate, such as cumbersome paperwork, lack of transparency, and high transaction costs. By harnessing the decentralized and immutable nature of blockchain, we provide a trusted and efficient ecosystem for property transactions.
           </p>
           <p>
-            Maecenas quis viverra metus, et efficitur ligula. Nam congue augue
-            et ex congue, sed luctus lectus congue. Integer convallis
-            condimentum sem. Duis elementum tortor eget condimentum tempor.
-            Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero
-            ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor
-            sit amet, consectetur adipisicing elit. Quod libero amet, laborum
-            qui nulla quae alias tempora.
+            Our blockchain-powered platform offers benefits such as transparency in property listings and ownership records, enhanced security through smart contracts, and streamlined processes that reduce time and costs. We strive to create a global marketplace where buyers and sellers can connect seamlessly, expanding opportunities for real estate transactions worldwide.
           </p>
 
           <ul className="ab_counting">

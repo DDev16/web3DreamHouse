@@ -12,7 +12,7 @@ const FaqContent = () => {
               aria-expanded="false"
               aria-controls="collapseOne"
             >
-              Contrary to popular belief, Lorem Ipsum is not simply
+              What is a blockchain real estate DApp?
             </button>
           </div>
           <div
@@ -23,14 +23,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
-              </p>
+              A blockchain real estate DApp refers to a decentralized application built on a blockchain platform that enables users to buy, sell, or trade real estate properties using smart contracts and non-fungible tokens (NFTs).</p>
             </div>
           </div>
         </div>
@@ -46,7 +39,7 @@ const FaqContent = () => {
               aria-expanded="true"
               aria-controls="collapseTwo"
             >
-              There are many variations of passages of Lorem
+              How does a blockchain real estate DApp work?
             </button>
           </div>
           <div
@@ -57,13 +50,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
+              A blockchain real estate DApp leverages the immutability and transparency of blockchain technology to facilitate secure and transparent real estate transactions. It allows users to list properties, verify ownership, execute contracts, and transfer property rights using smart contracts and NFTs.
               </p>
             </div>
           </div>
@@ -80,7 +67,7 @@ const FaqContent = () => {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Model sentence structures, to generate
+              What are the advantages of using a blockchain real estate DApp?
             </button>
           </div>
           <div
@@ -91,14 +78,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
-              </p>
+              Using a blockchain real estate DApp offers several advantages, including increased transparency, reduced intermediaries, enhanced security, faster transactions, fractional ownership options, and the ability to track the entire transaction history of a property.</p>
             </div>
           </div>
         </div>
@@ -114,7 +94,7 @@ const FaqContent = () => {
               aria-expanded="false"
               aria-controls="collapseFour"
             >
-              The first line of Lorem Ipsum
+              How do I buy or sell real estate using a blockchain DApp?
             </button>
           </div>
           <div
@@ -125,14 +105,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
-              </p>
+              To buy or sell real estate using a blockchain DApp, users need to create an account, browse available listings, select a property of interest, negotiate terms, execute a smart contract, transfer payment in cryptocurrency, and receive the corresponding NFT representing ownership rights. </p>
             </div>
           </div>
         </div>
@@ -148,7 +121,7 @@ const FaqContent = () => {
               aria-expanded="false"
               aria-controls="collapseFive"
             >
-              Finibus Bonorum et Malorum by Cicero are also
+              What is the role of non-fungible tokens (NFTs) in a blockchain real estate DApp?
             </button>
           </div>
           <div
@@ -159,14 +132,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
-              </p>
+              Non-fungible tokens (NFTs) in a blockchain real estate DApp represent unique digital assets that certify ownership or access rights to specific real estate properties. NFTs ensure the authenticity, provenance, and transferability of real estate assets on the blockchain.</p>
             </div>
           </div>
         </div>
@@ -182,7 +148,7 @@ const FaqContent = () => {
               aria-expanded="false"
               aria-controls="collapseSix"
             >
-              Letraset sheets containing Lorem Ipsum passages
+              How does blockchain technology ensure the security and transparency of real estate transactions?
             </button>
           </div>
           <div
@@ -193,14 +159,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
-              </p>
+              Blockchain technology provides security and transparency in real estate transactions by utilizing cryptographic algorithms, decentralized consensus mechanisms, and distributed ledger systems. These features prevent fraud, tampering, and unauthorized modifications, ensuring the integrity of property records.</p>
             </div>
           </div>
         </div>
@@ -216,7 +175,7 @@ const FaqContent = () => {
               aria-expanded="false"
               aria-controls="collapseSeven"
             >
-              Model sentence structures, to generate
+              Can I use cryptocurrencies to purchase real estate through a blockchain DApp?
             </button>
           </div>
           <div
@@ -227,14 +186,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
-              </p>
+              Yes, blockchain real estate DApps often support cryptocurrencies as a means of payment. Buyers can use popular cryptocurrencies like Bitcoin or Ethereum to purchase real estate properties listed on the DApp, providing a seamless and borderless transaction experience.</p>
             </div>
           </div>
         </div>
@@ -250,8 +202,7 @@ const FaqContent = () => {
               aria-expanded="false"
               aria-controls="collapseEight"
             >
-              The first line of Lorem Ipsum
-            </button>
+What are the legal implications and regulations surrounding blockchain real estate transactions?            </button>
           </div>
           <div
             id="collapseEight"
@@ -261,14 +212,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
-              </p>
+              Blockchain real estate transactions may be subject to existing real estate laws and regulations in the relevant jurisdictions. It is important to comply with local laws regarding property transfers, taxes, and registration procedures when conducting transactions through a blockchain real estate DApp.</p>
             </div>
           </div>
         </div>
@@ -284,8 +228,7 @@ const FaqContent = () => {
               aria-expanded="false"
               aria-controls="collapseNine"
             >
-              Finibus Bonorum et Malorum by Cicero are also
-            </button>
+How can I verify the authenticity and ownership of a property represented by an NFT?            </button>
           </div>
           <div
             id="collapseNine"
@@ -295,14 +238,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
-              </p>
+              The authenticity and ownership of a property represented by an NFT on a blockchain real estate DApp can be verified by examining the blockchain records, which contain the transaction history, ownership transfers, and smart contract details associated with the NFT. These records provide a transparent and immutable proof of ownership. </p>
             </div>
           </div>
         </div>
@@ -318,8 +254,7 @@ const FaqContent = () => {
               aria-expanded="false"
               aria-controls="collapseTen"
             >
-              Letraset sheets containing Lorem Ipsum passages
-            </button>
+What happens in case of disputes or issues with a real estate transaction on a blockchain DApp?            </button>
           </div>
           <div
             id="collapseTen"
@@ -329,14 +264,7 @@ const FaqContent = () => {
           >
             <div className="card-body">
               <p>
-                Maecenas quis viverra metus, et efficitur ligula. Nam congue
-                augue et ex congue, sed luctus lectus congue. Integer convallis
-                condimentum sem. Duis elementum tortor eget condimentum tempor.
-                Praesent sollicitudin lectus ut pharetra pulvinar. Donec et
-                libero ligula. Vivamus semper at orci at placerat.Placeat Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quod libero
-                amet, laborum qui nulla quae alias tempora.
-              </p>
+              In case of disputes or issues with a real estate transaction on a blockchain DApp, resolution mechanisms can be built into the DApp itself. This can involve arbitration, escrow services, or decentralized governance systems to address conflicts and ensure fair resolutions among the involved parties.</p>
             </div>
           </div>
         </div>

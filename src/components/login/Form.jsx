@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useState } from 'react';
 import Web3 from "web3";
-import contractABI from "../api/registration.json";
+import contractABI from "../abi/registration.json";
 import { useRouter } from 'next/router';
 
 const Form = () => {
