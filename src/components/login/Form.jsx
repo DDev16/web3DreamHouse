@@ -1,6 +1,67 @@
 import Link from "next/link";
+import React, { useState } from 'react';
+import Web3 from "web3";
+import contractABI from "../api/registration.json";
+import { useRouter } from 'next/router';
 
 const Form = () => {
+
+  const [log, setLog] = useState("");
+  const router = useRouter();
+
+  const handleLoginWithMetamask = async () => {
+      setLog("Attempting to login with MetaMask...");
+      console.log("Attempting to login with MetaMask...");
+      if (typeof window.ethereum !== 'undefined') {
+          setLog("MetaMask is installed!");
+          console.log("MetaMask is installed!");
+          const web3 = new Web3(window.ethereum);
+          try {
+              const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+              const account = accounts[0];
+              setLog(`Logged in with the account ${account}`);
+              console.log(`Logged in with the account ${account}`);
+  
+              const contractAddress = "0x04C89607413713Ec9775E14b954286519d836FEf"; 
+              const contract = new web3.eth.Contract(contractABI, contractAddress);
+  
+              const isRegistered = await contract.methods.isRegistered(account).call();
+              if (!isRegistered) {
+                  setLog('This account is not registered');
+                  console.log('This account is not registered');
+                  return;
+              }
+  
+              const message = `Sign this message to confirm you own the account ${account}`;
+              const signature = await web3.eth.personal.sign(message, account);
+              const recoveredAccount = await web3.eth.personal.ecRecover(message, signature);
+  
+              setLog(`Recovered account: ${recoveredAccount}`);
+              console.log(`Recovered account: ${recoveredAccount}`);
+              setLog(`Original account: ${account}`);
+              console.log(`Original account: ${account}`);
+              
+              if (recoveredAccount.toLowerCase() === account.toLowerCase()) {
+                  setLog('Login successful');
+                  console.log('Login successful');
+                  
+              } else {
+                  setLog('Login failed');
+                  console.log('Login failed');
+              }
+          } catch (error) {
+              console.error(error);
+              setLog("Error during login: " + error.message);
+          }
+      } else {
+          setLog('Non-Ethereum browser detected. You should consider trying MetaMask!');
+          console.log('Non-Ethereum browser detected. You should consider trying MetaMask!');
+      }
+       // Redirect to my-dashboard
+       router.push('/my-dashboard');
+
+  }
+  
   return (
     <form action="#">
       <div className="heading text-center">
@@ -67,6 +128,14 @@ const Form = () => {
       <button type="submit" className="btn btn-log w-100 btn-thm">
         Log In
       </button>
+      <button
+        type="button"
+        className="btn btn-log w-100 btn-thm"
+        onClick={handleLoginWithMetamask}
+    >
+        Log In with MetaMask
+    </button>
+    <pre>{log}</pre>
       {/* login button */}
 
       <div className="divide">
