@@ -1,4 +1,40 @@
-import Link from "next/link";
+import Web3 from "web3";
+import contractABI from "../user-credentials/registration.json"
+
+
+
+const handleRegisterWithMetamask = async () => {
+    console.log("Attempting to connect with MetaMask...");
+    if (typeof window.ethereum !== 'undefined') {
+        console.log("MetaMask is installed!");
+        const web3 = new Web3(window.ethereum);
+        try {
+            // Request account access
+            const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+            console.log(`Connected with the account ${accounts[0]}`);
+
+            // Register the user using their Ethereum address
+        
+            // Define the address of the deployed contract
+            const contractAddress = "0x7969c5eD335650692Bc04293B07F5BF2e7A673C0"; // replace this with your contract's address
+
+            // Create a new contract instance
+            const contract = new web3.eth.Contract(contractABI, contractAddress);
+
+            // Call the register function of the contract
+            await contract.methods.register().send({ from: accounts[0] });
+
+            console.log('User registered successfully');
+        } catch (error) {
+            // User denied account access or transaction failed
+            console.error("User denied account access or transaction failed");
+        }
+    } else {
+        console.log('Non-Ethereum browser detected. You should consider trying MetaMask!');
+    }
+}
+
+  
 
 const LoginSignup = () => {
     return (
@@ -225,6 +261,14 @@ const LoginSignup = () => {
                                             </button>
                                         </div>
                                     </div>
+                                    <button
+    type="button"
+    className="btn btn-log w-100 btn-thm"
+    onClick={handleRegisterWithMetamask}
+>
+    Register with MetaMask
+</button>
+
                                     {/* End .row */}
 
                                     <hr />

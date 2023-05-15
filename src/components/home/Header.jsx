@@ -38,7 +38,7 @@ const Header = () => {
               src="/assets/images/header-logo2.png"
               alt="header-logo2.png"
             />
-            <span>DreamHouse</span>
+            <span>Web3Realty</span>
           </a>
         </Link>
         {/* site logo brand */}
