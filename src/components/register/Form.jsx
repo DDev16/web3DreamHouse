@@ -156,7 +156,7 @@ const Form = () => {
         </div>
         {/* End .col */}
       </div>
-      <div className="col-lg-6">
+      {/* <div className="col-lg-6"> */}
       <button
     type="button"
     className="btn btn-log w-100 btn-thm"
@@ -165,7 +165,7 @@ const Form = () => {
     Register with MetaMask
 </button>
 <pre>{log}</pre>
-</div>
+{/* </div> */}
 
       {/* more signin options */}
     </form>
