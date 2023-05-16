@@ -20,9 +20,15 @@
 
 <h2>Running the Application</h2>
 
+<p>Start a local Hardhat node using the command <code>yarn hardhat node</code>.</p>
+
+<p>Deploy the <code>Registration.sol</code> contract using the appropriate hardhat command. Ensure to replace the placeholder with the actual command: <code>yarn hardhat run scripts/deploy.js --network localhost</code></p>
+
+<p>Once the contract is deployed, note down the contract's address and update it in the necessary places in your code or configuration files.</p>
+
 <p>To start the development server, use the command <code>yarn dev</code>.</p>
 
-<p>Make sure to have a local Ethereum node running or use a service like Infura. Update the <code>.env</code> file with the necessary variables such as the <code>REACT_APP_INFURA_ID</code>.</p>
+<p>Make sure to have a local Ethereum node running or use a service like Infura. Update the <code>.env</code> file with the necessary variables such as the <code>REACT_APP_INFURA_ID</code> and your deployed contract address.</p>
 
 <h2>Contributions</h2>
 
