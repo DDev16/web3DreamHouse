@@ -32,7 +32,8 @@ const index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2 className="mt0">Our Mission Is To FindHouse</h2>
+                <h2 className="mt0">
+Our Mission: Revolutionizing Real Estate for a Seamless Experience</h2>
               </div>
             </div>
           </div>
@@ -67,7 +68,7 @@ const index = () => {
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
                 <h2>Our Team</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Our Team is Filled with diverse Skillsets.</p>
               </div>
             </div>
           </div>

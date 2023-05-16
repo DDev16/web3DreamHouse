@@ -12,11 +12,11 @@ St, Los Angeles, CA 900015`,
     itemDetails: [
       {
         name: "Beds",
-        number: "1",
+        number: "2",
       },
       {
         name: "Baths",
-        number: "1",
+        number: "3",
       },
       {
         name: "SqFt",

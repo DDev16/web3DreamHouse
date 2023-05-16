@@ -24,7 +24,7 @@ const Form = () => {
             const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
             setLog(`Connected with the account ${accounts[0]}`);
 
-            const contractAddress = "0xDC11f7E700A4c898AE5CAddB1082cFfa76512aDD"; 
+            const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; 
 
             const contract = new web3.eth.Contract(contractABI, contractAddress);
 
