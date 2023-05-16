@@ -1,6 +1,6 @@
-<h1>Web3realty: Web3DreamHouse</h1>
+<h1>Web3realty: Web3Realty</h1>
 
-<p>Web3realty: Web3DreamHouse is a decentralized application (DApp) built on React and Next.js. This innovative DApp integrates blockchain technology to revolutionize the real estate industry.</p>
+<p>Web3realty: Web3Realty is a decentralized application (DApp) built on React and Next.js. This innovative DApp integrates blockchain technology to revolutionize the real estate industry.</p>
 
 <p>This project utilizes Web3.js to interact directly with the Ethereum blockchain, enabling features such as property listing, property buying, and selling transactions to be managed in a decentralized manner. This not only provides a secure, transparent and efficient process for real estate transactions, but also eliminates the need for intermediaries, thereby reducing transaction costs.</p>
 
@@ -12,7 +12,7 @@
   <li><strong>Decentralized:</strong> The platform is entirely decentralized. All transactions and data storage are handled on-chain, reducing reliance on intermediaries and increasing transparency.</li>
 </ul>
 
-<p>Web3realty: Web3DreamHouse represents the future of real estate, combining the power of blockchain with the usability of modern web development to create a secure, efficient, and user-friendly platform.</p>
+<p>Web3realty: Web3Realty represents the future of real estate, combining the power of blockchain with the usability of modern web development to create a secure, efficient, and user-friendly platform.</p>
 
 <h2>Installation</h2>
 
